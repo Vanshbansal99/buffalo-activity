@@ -127,8 +127,8 @@ class CustomFloatingWindow extends StatelessWidget {
                   },
                   style: ElevatedButton.styleFrom(
                     shape: CircleBorder(),
-                    primary: Colors.yellow,
-                    onPrimary: Colors.black,
+                    backgroundColor: Colors.yellow,
+                    disabledBackgroundColor: Colors.black,
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(5.0),

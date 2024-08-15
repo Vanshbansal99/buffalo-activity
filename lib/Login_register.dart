@@ -502,7 +502,7 @@ class _AnimatedLoginDialogState extends State<AnimatedLoginDialog>
                 onPressed: () =>
                     _callLoginApi(context, widget.appLocalizations),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.green,
+                  backgroundColor: Colors.green,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(70)),
                 ),
@@ -521,7 +521,7 @@ class _AnimatedLoginDialogState extends State<AnimatedLoginDialog>
                 onPressed: () =>
                     _openRegisterPage(context, widget.appLocalizations),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.red,
+                  backgroundColor: Colors.red,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(70)),
                 ),
@@ -807,7 +807,7 @@ class _RegisterPageState extends State<RegisterPage> {
             ElevatedButton(
               onPressed: () => _callApiAndRegister(context),
               style: ElevatedButton.styleFrom(
-                primary: Colors.green,
+                backgroundColor: Colors.green,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(70)),
               ),
